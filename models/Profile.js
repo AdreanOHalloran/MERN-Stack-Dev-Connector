@@ -28,7 +28,7 @@ const ProfileSchema = new mongoose.Schema({
   githubusername: {
     type: String
   },
-  experiences: [
+  experience: [
     {
       title: {
         type: String,
@@ -104,6 +104,7 @@ const ProfileSchema = new mongoose.Schema({
       type: String
     }
   },
+
   date: {
     type: Date,
     default: Date.now
