@@ -23,6 +23,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
     "concurrently": "^4.1.2",
     "nodemon": "^1.19.2"
   }
